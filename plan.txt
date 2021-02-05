@@ -1,0 +1,31 @@
+This timer will automatically setup to be 40 minutes long, and a button initiate the countdown. After 40 minutes have gone by, it will count up how much longer you have studied past 40 minutes and will force you to take a break at 60 minutes. 
+At 40 minutes, pressing the button will start rest mode which is 20 minutes long. Long enough to watch a short episode show, or maybe try your hand at one of the cups on mario kart 8. the point is, its long enough to actually relax for a good bit.
+
+Progress bar under the timer to give visual of how much longer left to go. 
+
+A gif that plays while working and while resting next to the timer for some cuteness. Dont want it feeling like all work. Might put some pandas or animals to make it more me. Decorations later. 
+
+App Components:
+- A header above the timer that shows what mode it is in. FOCUS or REST.
+- Countdown box that just holds the time
+- A button that changes between FOCUS and REST to tell the user what /will/ happen when they press it.
+- a progress bar
+- Container for the GIF(s) - NOT IMPORTANT, JUST FOR FUN
+
+Header Component:
+1) <h1> that changes based on state of countdown timer.vv 
+    - import countdown?
+
+Countdown Component:
+1) div container that hold an <h1>
+    - time state to know what time to display
+    -counting down state (true/false) to know whether it should be paused or counting down
+
+Button Component:
+1) <button> like the <Header /> that changes based on state of <Countdown />
+    -Import Countdown
+
+Progress Component (CSS BASED):
+1) A line that fills dynamically as a % of the current time over the total time.
+2) Inline style that will have background color change from the left as it counts down. Can use percentages. CSS Gradient?  
+
