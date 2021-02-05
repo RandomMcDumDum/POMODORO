@@ -1,0 +1,13 @@
+*{
+  box-sizing: border-box;
+}
+
+/* This is nasty looking... */
+body {
+  color: purple;
+  background-color: green;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
